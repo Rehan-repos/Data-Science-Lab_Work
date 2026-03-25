@@ -1,38 +1,58 @@
-# Regression Analysis
+# House Price Prediction using Regression Analysis
 
 ## Description
 
-This lab focuses on implementing regression techniques to predict continuous values.
+This project focuses on predicting house prices using regression techniques. It combines exploratory data analysis and machine learning to understand relationships between housing features and price.
 
 ## Dataset
 
-* Boston Housing Dataset
-* Contains housing-related features and price
+* **Source:** Boston Housing Dataset
+* **Description:** Contains 506 records with 14 features such as crime rate, number of rooms, tax rate, and other factors influencing house prices.
 
 ## Steps Performed
 
-1. Data preprocessing
-2. Exploratory Data Analysis
-3. Feature selection
-4. Model building using Linear Regression
-5. Model evaluation
+1. Data Loading and Preprocessing
+
+2. Exploratory Data Analysis (EDA)
+
+   * Checked dataset structure
+   * Analyzed correlations between features
+   * Visualized data distributions
+
+3. Feature Selection
+
+   * Identified important features affecting house prices
+
+4. Model Building
+
+   * Implemented Linear Regression
+   * Implemented Decision Tree Regressor
+
+5. Model Evaluation
+
+   * Evaluated models using RMSE and MAE
+   * Compared performance of different models
 
 ## Results
 
-* Model successfully predicted house prices
-* Evaluated using metrics like RMSE
+* Linear Regression provided stable and consistent predictions
+* Decision Tree captured non-linear relationships but may overfit
+* RMSE used to evaluate model performance
 
 ## Tools Used
 
 * Python
-* Pandas
 * NumPy
+* Pandas
+* Matplotlib
+* Seaborn
 * Scikit-learn
 
 ## Conclusion
 
-Regression models help in predicting continuous outcomes and are widely used in real-world applications.
+This project demonstrates how regression models can be used to predict house prices. Linear Regression performed well for this dataset, while Decision Tree provided insights into non-linear patterns.
 
 ## Author
 
 Rehan Khan
+
